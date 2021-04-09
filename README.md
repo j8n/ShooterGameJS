@@ -1,1 +1,8 @@
 ShooterGame
+
+
+This is a shooter game made with Javascript
+
+If you think that you can help in the development of this open source game, you are very welcome!
+
+Contact me for more!
