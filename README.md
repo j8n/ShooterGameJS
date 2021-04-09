@@ -11,6 +11,6 @@ Find tha live game and play it here: https://j8n.github.io/ShooterGameJS/
 
 
 
-# ToDo List
+### ToDo List
 
 * Gameover popup when player dies
