@@ -7,7 +7,7 @@ If you are interested for this project and think that can help with the developm
 
 Contact me for more!
 
-Find tha live game and play it here: https://j8n.github.io/ShooterGameJS/
+Find the live game and play it here: https://j8n.github.io/ShooterGameJS/
 
 
 
@@ -15,4 +15,5 @@ Find tha live game and play it here: https://j8n.github.io/ShooterGameJS/
 
 * Gameover popup when player dies
 * Game reset on gameover
+* Gameobject images (player, Enemies, etc.)
 * AND A LOT MORE...!
