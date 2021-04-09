@@ -1,7 +1,7 @@
 ## Shooter Game Made With Javascript
 
 
-This is a simple, early stage, shooter game made with Javascript. The game uses it's own Game Engine!
+This is a simple, early stage, shooter game made with Javascript initially developed in 2017. The game uses it's own Game Engine!
 
 If you are interested for this project and think that can help with the development of this open source game, you are very welcome!
 
