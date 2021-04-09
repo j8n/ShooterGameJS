@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shooter 2d</title>
+
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900');
+
+		* {
+			padding: 0;
+			margin: 0;
+			font-family: 'Source Sans Pro', sans-serif;
+			/*
+			cursor: url('img/crosshair.png'), default;
+			*/
+			cursor: crosshair;
+			
+		}
+
+		.panels {
+			position: fixed;
+			z-index: 50;
+			margin: 5px;
+			font-size: 12px;
+			color: #f0f0f0;
+			background-color: rgba(25, 25, 25, 0.9);
+		}
+
+		#debug-panel-one {
+			left: 0;
+			top: 0;
+		}
+
+		#debug-panel-two {
+			right: 0;
+			bottom: 0;
+		}
+
+		#UI {
+			top: right;
+			right: 0;
+			font-size: 50px;	
+		}
+
+		.UI-box {
+			color: #f0f0f0;
+			padding: 0 25px;
+			float: right;
+		}
+		
+	</style>
+
+	<script type="text/javascript" src="src/Shooter.js"></script>
+	<script type="text/javascript" src="src/Shooter.DOM.js"></script>
+
+	<script async type="text/javascript" src="src/Shooter.Lib.js"></script>
+	<script async type="text/javascript" src="src/Shooter.Lib.Calculator.js"></script>
+	<script async type="text/javascript" src="src/Shooter.Lib.Vector2.js"></script>
+	<script async type="text/javascript" src="src/Shooter.Physics.js"></script>
+	<script async type="text/javascript" src="src/Shooter.Input.js"></script>
+	<script async type="text/javascript" src="src/Shooter.Camera.js"></script>
+	<script async type="text/javascript" src="src/Shooter.Time.js"></script>
+	<script async type="text/javascript" src="src/Shooter.Geometry.js"></script>
+	<script async type="text/javascript" src="src/Shooter.Graphics.js"></script>
+	<script async type="text/javascript" src="src/Shooter.Printer.js"></script>
+
+	<script async type="text/javascript" src="src/Shooter.AI.js"></script>
+	<script async type="text/javascript" src="src/Shooter.AI.AIPlayer.js"></script>
+	<script async type="text/javascript" src="src/Shooter.AI.PathFinder.js"></script>
+	<script async type="text/javascript" src="src/Shooter.AI.PathModeller.js"></script>
+
+	<script async type="text/javascript" src="src/Shooter.Utils.js"></script>
+	<script async type="text/javascript" src="src/Shooter.Data.js"></script>
+	<script async type="text/javascript" src="src/Shooter.Grid.js"></script>
+
+	<script async type="text/javascript" src="src/Shooter.GameObject.js"></script>
+	<script async type="text/javascript" src="src/Shooter.Projectile.js"></script>
+	<script async type="text/javascript" src="src/Shooter.Box.js"></script>
+	<script async type="text/javascript" src="src/Shooter.Crate.js"></script>
+	<script async type="text/javascript" src="src/Shooter.HealthCrate.js"></script>
+	<script async type="text/javascript" src="src/Shooter.Hitman.js"></script>
+	<script async type="text/javascript" src="src/Shooter.Enemy.js"></script>
+	<script async type="text/javascript" src="src/Shooter.Player.js"></script>
+
+</head>
+<body>
+	<div class="panels" id="debug-panel-one"></div>
+	<div class="panels" id="debug-panel-two"></div>
+	<div class="window panels" id="UI">
+		<div class="UI-box" id="player-health-ui"></div>
+	</div>
+	<script type="text/javascript">
+		window.onload = function(){
+			Shooter.set();
+			//Shooter.setup();
+		}
+	</script>
+</body>
+</html>
