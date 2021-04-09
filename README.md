@@ -15,5 +15,5 @@ Find the live game and play it here: https://j8n.github.io/ShooterGameJS/
 
 * Gameover popup when player dies
 * Game reset on gameover
-* Gameobject images (player, Enemies, etc.)
+* Gameobject images (player, enemies, etc.)
 * AND A LOT MORE...!
